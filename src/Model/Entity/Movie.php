@@ -32,7 +32,8 @@ class Movie extends Entity
         'description' => true,
         'duration' => true,
         'created' => true,
-        'modified' => true,
+        'modified' => true, 
+        'releasedate' => true,               
         'showtimes' => true
     ];
 }
