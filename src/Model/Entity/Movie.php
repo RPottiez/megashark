@@ -13,6 +13,7 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\FrozenTime $created
  * @property \Cake\I18n\FrozenTime $modified
  * @property \Cake\I18n\FrozenDate $release_date
+ * 
  * @property \App\Model\Entity\Showtime[] $showtimes
  */
 class Movie extends Entity

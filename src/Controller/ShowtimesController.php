@@ -69,6 +69,23 @@ class ShowtimesController extends AppController
         $this->set('_serialize', ['showtime']);
     }
 
+     public function planning()
+    {        
+       /* $showtimes = $this
+            ->Rooms
+            ->Showtimes
+            ->find('all')
+            ->contain('Movies')
+            ->where(['Showtimes.room_id =' => $id,
+                     'Showtimes.start >=' => (new \DateTime('monday this week')),
+                     'Showtimes.end <=' => (new \DateTime('sunday this week'))]);
+       
+        $this->set('showtimes',$showtimes);
+       
+        $this->set('room', $room);
+        $this->set('_serialize', ['room']);*/
+    }
+
     /**
      * Edit method
      *
